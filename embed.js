@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // SVG for the chat icon when chatbot is closed (Open state)
   const openSvg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-  openSvg.setAttribute("width", "64px");
-  openSvg.setAttribute("height", "64px");
+  openSvg.setAttribute("width", "44px");
+  openSvg.setAttribute("height", "34px");
   openSvg.setAttribute("viewBox", "0 0 24 24");
   openSvg.setAttribute("fill", "none");
   openSvg.setAttribute("xmlns", "http://www.w3.org/2000/svg");
@@ -31,8 +31,8 @@ document.addEventListener("DOMContentLoaded", function () {
     "svg"
   );
   closeSvg.setAttribute("fill", "#ffffff"); // Set the close icon to white
-  closeSvg.setAttribute("width", "64px");
-  closeSvg.setAttribute("height", "64px");
+  closeSvg.setAttribute("width", "40px");
+  closeSvg.setAttribute("height", "30px");
   closeSvg.setAttribute("viewBox", "0 0 200 200");
   closeSvg.setAttribute("data-name", "Layer 1");
   closeSvg.setAttribute("id", "Layer_1");
@@ -99,8 +99,8 @@ document.addEventListener("DOMContentLoaded", function () {
           background-color: #1950ff;
           border-radius: 50%;
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-          height: 80px;
-          width: 80px;
+          height: 64px;
+          width: 64px;
           display: flex;
           align-items: center;
           justify-content: center;
